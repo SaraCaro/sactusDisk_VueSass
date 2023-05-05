@@ -1,0 +1,45 @@
+.card-container {
+    @include flex;
+    flex-wrap: wrap;
+    margin-top: 2em;
+    
+    .card {
+      width: calc(33.33% - 10px);
+      margin-bottom: 20px;
+      padding: 10px;
+      margin: 0 5px 20px 5px;
+      box-sizing: border-box;
+      border: 1px solid getColor('tertiary');
+      border-radius: 5px;
+      text-align: center;
+      background-color: getColor('tertiary');
+      color: getColor('white-text');
+      box-shadow: 4px 4px 7px rgba(0,0,0,0.5);
+
+      @include response('md'){
+        width: calc(50% - 10px);
+      }
+
+      @include response('sm'){
+        width: 100%;
+      }
+      
+      &-img {
+        max-width: 50%;
+        border-radius: 5px;
+        margin: 0 auto;
+      }
+      
+      &-title {
+        margin-top: 0.5em;
+        margin-bottom: 0.5em;
+        font-size: 1.2em;
+      }
+      
+      &-text {
+        font-size: 0.9em;
+        line-height: 1.4;
+        border-top: 1px solid getColor('white-text');
+      }
+    }
+}

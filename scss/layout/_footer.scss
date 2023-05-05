@@ -1,0 +1,137 @@
+.footer {
+    @include flex();
+    flex-wrap: wrap;
+    padding: 20px;
+    color: getColor('white-text');
+    font-size: getFontSize('texts');
+    margin-top: 5em;
+    background-color: getColor('tertiary');
+
+    @include response('md'){
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    &-location {
+        order: 1;
+        flex-basis: 30%;
+        font-weight: getFontWeight('bold');
+
+        &-title {
+            color: getColor('secondary');
+            font-size: getFontSize('xs');
+        }
+
+        iframe{
+            width: 400px;
+            height: 250px;
+
+            @include response('md'){
+                width: 100%;
+            }
+        }
+    }
+    
+    &-contactInfo {
+        order: 2;
+        flex-basis: 30%;
+        text-align: center;
+        
+        &-title {
+        font-size: getFontSize('xs');
+        font-weight: getFontWeight('bold');
+        color: getColor('secondary');
+        }
+
+        &-text {
+        margin-bottom: 5px;
+        font-size: getFontSize('texts');
+        }
+    }
+    
+    &-companyInfo {
+        order: 3;
+        flex-basis: 30%;
+        text-align: right;
+
+        @include response('md'){
+            text-align: center;
+            margin-top: 2em;
+        }
+
+        &-title {
+        font-size: getFontSize('xs');
+        font-weight: getFontWeight('bold');
+        color: getColor('secondary');
+        }
+
+        &-text{
+        font-size: getFontSize('texts');
+        }
+    }
+    
+    &-socialLinks {
+        order: 4;
+        width: 100%;
+        text-align: center;
+        margin-top: 20px;
+        border-top: 1px solid #666;
+        
+        &-item {
+        display: inline-block;
+        margin-right: 10px;
+        color: getColor('secondary');
+        margin-top: 1.5em;
+        transition: all 0.2s ease-in-out;
+        
+            &:last-child {
+                margin-right: 0;
+            }
+            
+            &:hover {
+                color: getColor('quaternary');
+                transition: all 0.2s ease-in-out;
+            }
+        }
+    }
+    
+    &-copyright {
+        order: 5;
+        width: 100%;
+        text-align: center;
+        margin-top: 20px;
+        font-size: 1rem;
+    }
+  }
+
+
+  .arrow {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    width: 50px;
+    height: 50px;
+    background-color: getColor('primary');
+    color: getColor('secondary');
+    border-radius: 50%;
+    text-align: center;
+    line-height: 50px;
+    font-size: 1.5rem;
+    cursor: pointer;
+    transition: all 0.3s;
+    z-index: 1000;
+
+    @include response('md'){
+        bottom: 20px;
+        right: 20px;
+    }
+
+    &:hover {
+      background-color: getColor('tertiary');
+      color: getColor('secondary');
+    }
+
+    & i {
+      transition: all 0.3s;
+    }
+  }

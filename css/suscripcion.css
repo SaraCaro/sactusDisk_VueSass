@@ -1,0 +1,6 @@
+.suscripcion-text {
+  color: getColor("secondary");
+  font-size: getFontSize("texts");
+  font-weight: 600;
+  text-align: center;
+  margin-bottom: 1rem; }

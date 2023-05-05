@@ -1,0 +1,34 @@
+.register {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 2rem;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #fff;
+  margin-top: 5em; }
+  .register h2 {
+    margin-top: 0; }
+  .register form {
+    display: flex;
+    flex-direction: column; }
+    .register form .form-group {
+      margin-bottom: 1rem; }
+      .register form .form-group-label {
+        margin-bottom: 0.5rem;
+        display: block;
+        font-weight: bold; }
+      .register form .form-group-input {
+        padding: 0.5rem;
+        border: 1px solid #ccc;
+        border-radius: 3px;
+        font-size: 1rem;
+        width: 100%; }
+    .register form button[type='submit'] {
+      padding: 0.5rem 1rem;
+      border-radius: 3px;
+      border: none;
+      background-color: #007bff;
+      color: #fff;
+      font-size: 1rem;
+      cursor: pointer;
+      margin-top: 1rem; }

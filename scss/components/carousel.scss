@@ -1,0 +1,13 @@
+/// Componente de carousel
+
+.carousel{
+    background-color: getColor('carousel-bg');
+    &-item{
+        &-posicion{
+            @include flex();
+        }
+       &-img{
+            width: 100vh;
+       }
+    }
+}

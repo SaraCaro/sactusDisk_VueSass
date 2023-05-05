@@ -1,0 +1,67 @@
+.register {
+  @include flex();
+  margin-top: 5em;
+
+  &-form {
+    background-color: #f2f2f2;
+    padding: 2rem;
+    border-radius: 0.5rem;
+    box-shadow: 7px 7px 7px rgba(0,0,0,0.5);
+    width: 30rem;
+
+    .form-group {
+      margin-bottom: 1rem;
+
+      label {
+        display: block;
+        font-size: 1.2rem;
+        margin-bottom: 0.5rem;
+      }
+
+      input {
+        display: block;
+        width: 100%;
+        padding: 0.5rem;
+        font-size: 1.2rem;
+        border: 1px solid #ccc;
+        border-radius: 0.5rem;
+      }
+    }
+
+    &-title {
+      font-size: 2rem;
+      margin-bottom: 2rem;
+      text-align: center;
+    }
+
+      &-button {
+          @include buttons( 'texts');
+          margin-top: 1rem;
+      }
+
+      &-login{
+          @include flex();
+          margin-top: 2em;
+
+          a{
+              text-decoration: none;
+              color: #000;
+              &:hover{
+                  color: #000;
+              }
+          }
+          
+          &-span{
+            color: getColor('tertiary');
+            transition: all 0.2s ease-in-out;
+            text-decoration: underline;
+            
+            &:hover{
+              color: getColor('secondary');
+              transition: all 0.2s ease-in-out;
+            }
+          }
+      }
+
+  }
+}

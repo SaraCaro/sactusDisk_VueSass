@@ -1,0 +1,27 @@
+.login {
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+  .login__form {
+    background-color: #f2f2f2;
+    padding: 2rem;
+    border-radius: 0.5rem;
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
+    width: 30rem; }
+    .login__form .form-group {
+      margin-bottom: 1rem; }
+      .login__form .form-group label {
+        display: block;
+        font-size: 1.2rem;
+        margin-bottom: 0.5rem; }
+      .login__form .form-group input {
+        display: block;
+        width: 100%;
+        padding: 0.5rem;
+        font-size: 1.2rem;
+        border: 1px solid #ccc;
+        border-radius: 0.5rem; }
+    .login__form__title {
+      font-size: 2rem;
+      margin-bottom: 2rem;
+      text-align: center; }

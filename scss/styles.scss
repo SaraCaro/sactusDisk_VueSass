@@ -1,0 +1,22 @@
+@import "variables";
+@import "mixin";
+@import "base";
+
+@import "layout/header";
+@import "layout/navigation";
+@import "layout/footer";
+
+@import "components/carousel";
+@import "components/cards";
+@import "components/suscripcion";
+@import "components/login";
+@import "components/registro";
+@import "components/catalogo";
+@import "components/detalle";
+
+@import "../node_modules/bootstrap/scss/bootstrap";
+
+body{
+    background-color: getColor('primary');
+    font-family: $font-family-body;
+}
