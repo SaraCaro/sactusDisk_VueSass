@@ -1,0 +1,70 @@
+.carrito {
+    background-color: getColor("carousel-bg");
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+    width: 100%;
+    margin-top: 5rem;
+
+    &-title{
+        font-size: getFontSize("lg");
+        font-weight: getFontWeight("bold");
+        margin-bottom: 1rem;
+        text-align: center;
+        color: getColor("secondary");
+    }
+
+    &-productos{
+        margin-bottom: 1rem;
+
+        &-producto{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 1rem;
+
+            &-img{
+                width: 15rem;
+                height: auto;
+                margin-right: 1rem;
+            }
+
+            &-info{
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: flex-start;
+                flex: 1;
+
+                &-titulo{
+                    font-size: getFontSize("md");
+                    font-weight: getFontWeight("bold");
+                    margin-bottom: 0.5rem;
+                }
+
+                &-precio{
+                    font-size: getFontSize("texts");
+                    font-weight: getFontWeight("bold");
+                    color: getColor("secondary");
+                }
+
+                &-boton{
+                    @include buttons("texts", "tertiary");
+                }
+            }
+        }
+    }
+
+    &-total{
+        @include flex();
+        margin-bottom: 1rem;
+
+        &-titulo{
+            font-size: getFontSize("xs");
+            font-weight: getFontWeight("bold");
+            color: getColor("white-text");
+        }
+    }
+}

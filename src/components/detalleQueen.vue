@@ -1,5 +1,8 @@
 <template>
     <cabecera/>
+    <div class="detalle-volver">
+        <router-link class="detalle-volver-item" to="/popDisco"><i class="fa-solid fa-arrow-left"></i> Volver atrás</router-link>
+    </div>
     <div class="detalle">
           <div class="detalle-img">
               <img class="detalle-img-item" src="../../public/Rock/queen.jpg" alt="harry"/>

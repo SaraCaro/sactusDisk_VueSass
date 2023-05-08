@@ -40,10 +40,10 @@
           </div>
         </div>
         <div class="card">
-          <img src="../../public/rock/dire.jpg" alt="Disco 1" class="card-img">
+          <img src="../../public/rock/dire.png" alt="Disco 1" class="card-img">
           <div class="card-content">
             <h3 class="card-title">Dire Straits</h3>
-            <p class="card-text">Tattoo you</p>
+            <p class="card-text">Brothers in arms</p>
             <button class="card-price">34.99€</button>
           </div>
         </div>

@@ -40,7 +40,7 @@
           </div>
         </div>
         <div class="card">
-          <img src="../../public/rock/pink.jpg" alt="Disco 1" class="card-img">
+          <img src="../../public/rock/pink.png" alt="Disco 1" class="card-img">
           <div class="card-content">
             <h3 class="card-title">Pink Floyd</h3>
             <p class="card-text">The Wall</p>

@@ -12,6 +12,9 @@
   flex-wrap: wrap; }
   .header-logo img {
     width: 210px; }
+  @media (max-width: 576px) {
+    .header-logo img {
+      width: 100%; } }
   @media (max-width: 768px) {
     .header-search {
       display: none; } }
@@ -40,6 +43,12 @@
       background-color: #122620;
       color: #D6AD60;
       border: 1px solid #D6AD60; }
+  @media (max-width: 320px) {
+    .header-sesion {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center; } }
   .header-sesion i {
     color: #D6AD60;
     scale: 1.3;
@@ -49,6 +58,9 @@
     text-decoration: none;
     font-size: 1.2rem;
     transition: 0.3s; }
+    @media (max-width: 320px) {
+      .header-sesion-login i, .header-sesion-carrito i {
+        margin-top: 1em; } }
     .header-sesion-login i:hover, .header-sesion-carrito i:hover {
       color: #e4c978;
       transition: 0.3s; }
@@ -508,6 +520,93 @@ a.nav-link.dropdown-toggle {
         background-color: #122620;
         color: #D6AD60;
         border: 1px solid #D6AD60; }
+
+.detalle-volver {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  margin: 2rem 3rem; }
+  .detalle-volver-item {
+    background-color: #23473c;
+    color: #D6AD60;
+    font-size: 1.4rem;
+    font-weight: 700;
+    border: 1px solid #23473c;
+    padding: 5px;
+    border-radius: 5px;
+    transition: all 0.3s;
+    border: 1px solid #D6AD60;
+    font-size: 1rem;
+    text-decoration: none; }
+    .detalle-volver-item:hover {
+      background-color: #122620;
+      color: #D6AD60;
+      border: 1px solid #D6AD60; }
+
+.carrito {
+  background-color: #1d3b33;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem;
+  width: 100%;
+  margin-top: 5rem; }
+  .carrito-title {
+    font-size: 2.5rem;
+    font-weight: 700;
+    margin-bottom: 1rem;
+    text-align: center;
+    color: #D6AD60; }
+  .carrito-productos {
+    margin-bottom: 1rem; }
+    .carrito-productos-producto {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 1rem; }
+      .carrito-productos-producto-img {
+        width: 15rem;
+        height: auto;
+        margin-right: 1rem; }
+      .carrito-productos-producto-info {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        flex: 1; }
+        .carrito-productos-producto-info-titulo {
+          font-size: 2rem;
+          font-weight: 700;
+          margin-bottom: 0.5rem; }
+        .carrito-productos-producto-info-precio {
+          font-size: 1.2rem;
+          font-weight: 700;
+          color: #D6AD60; }
+        .carrito-productos-producto-info-boton {
+          background-color: #122620;
+          color: #D6AD60;
+          font-size: 1.2rem;
+          font-weight: 700;
+          border: 1px solid #23473c;
+          padding: 5px;
+          border-radius: 5px;
+          transition: all 0.3s; }
+          .carrito-productos-producto-info-boton:hover {
+            background-color: #122620;
+            color: #D6AD60;
+            border: 1px solid #D6AD60; }
+  .carrito-total {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 1rem; }
+    .carrito-total-titulo {
+      font-size: 1.6rem;
+      font-weight: 700;
+      color: #FFFFFF; }
 
 /*!
    * Bootstrap  v5.2.3 (https://getbootstrap.com/)

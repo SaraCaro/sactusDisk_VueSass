@@ -32,7 +32,7 @@
           </div>
         </div>
         <div class="card">
-          <img src="../../public/pop/discoKehlani.png" alt="Disco 1" class="card-img">
+          <img src="../../public/pop/kehlani.png" alt="Disco 1" class="card-img">
           <div class="card-content">
             <h3 class="card-title">Kehlani</h3>
             <p class="card-text">Sweet Sexy Savage</p>

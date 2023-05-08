@@ -1,5 +1,8 @@
 <template>
   <cabecera/>
+  <div class="detalle-volver">
+        <router-link class="detalle-volver-item" to="/popDisco"><i class="fa-solid fa-arrow-left"></i> Volver atrás</router-link>
+  </div>
   <div class="detalle">
         <div class="detalle-img">
             <img class="detalle-img-item" src="../../public/pop/discoHarry.png" alt="harry"/>
@@ -12,7 +15,7 @@
                 <input class="detalle-text-input-item" type="number" id="cantidad" name="cantidad" value="1" min="1"/>               
             </div>
             <div class="detalle-text-button">
-                <button class="detalle-text-button-item">Añadir al carrito</button>
+                <button class="detalle-text-button-item" @click="addToCart">Añadir al carrito</button>
             </div>
         </div>      
     </div>
@@ -29,6 +32,17 @@ export default {
   components: {
     cabecera,
     pie,
+  },
+  methods: {
+    addToCart() {
+      const product = {
+        name: "Harry's House - Harry Styles",
+        price: 14.99,
+        image: "../../public/pop/discoHarry.png",
+      };
+      const quantity = parseInt(document.getElementById("cantidad").value);
+      this.$emit("add-to-cart", { product, quantity });
+    },
   },
 };
 
