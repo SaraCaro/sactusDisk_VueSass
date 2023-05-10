@@ -5,7 +5,7 @@
     </div>
     <div class="detalle">
           <div class="detalle-img">
-              <img class="detalle-img-item" src="../../../public/rap/nach.png" alt="harry"/>
+              <img class="detalle-img-item" src="../../../public/rap/nach.png" alt="nach"/>
           </div>
           <div class="detalle-text">
               <h1 class="detalle-text-title">Nach - Suburbia</h1>

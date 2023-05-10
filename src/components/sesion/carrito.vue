@@ -34,17 +34,17 @@ export default {
     return {
       productos: [
         {
-          imagen: '../../public/pop/kehlani.png',
+          imagen: './public/pop/kehlani.png',
           titulo: 'Kehlani',
           precio: 18.99
         },
         {
-          imagen: '../../public/rock/dire.png',
+          imagen: './public/rock/dire.png',
           titulo: 'Dire Straits',
           precio: 34.99
         },
         {
-          imagen: '../../public/rock/pink.png',
+          imagen: './public/rock/pink.png',
           titulo: 'Pink Floyd',
           precio: 15.99
         }

@@ -64,28 +64,28 @@
           nombreArtista: "Queen",
           tituloDisco: "Bohemian Rhapsody",
           precio: 25.99,
-          imagen: "../../../public/rock/queen.jpg",
+          imagen: "./public/rock/queen.jpg",
         },
         {
           id: 2,
           nombreArtista: "Los Beatles",
           tituloDisco: "Abbey Road",
           precio: 20.99,
-          imagen: "../../../public/rock/losBeatles.png",
+          imagen: "./public/rock/losBeatles.png",
         },
         {
           id: 3,
           nombreArtista: "Rolling Stones",
           tituloDisco: "Tattoo you",
           precio: 21.99,
-          imagen: "../../../public/rock/rolling.png",
+          imagen: "./public/rock/rolling.png",
         },
         {
           id: 4,
           nombreArtista: "Dire Straits",
           tituloDisco: "Brothers in arms",
           precio: 34.99,
-          imagen: "../../../public/rock/dire.png",
+          imagen: "./public/rock/dire.png",
         }
       ],
     };

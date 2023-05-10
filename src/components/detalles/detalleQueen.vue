@@ -5,7 +5,7 @@
     </div>
     <div class="detalle">
           <div class="detalle-img">
-              <img class="detalle-img-item" src="../../../public/Rock/queen.jpg" alt="harry"/>
+              <img class="detalle-img-item" src="../../../public/Rock/queen.jpg" alt="queen"/>
           </div>
           <div class="detalle-text">
               <h1 class="detalle-text-title">Bohemian Rhapsody - Queen</h1>

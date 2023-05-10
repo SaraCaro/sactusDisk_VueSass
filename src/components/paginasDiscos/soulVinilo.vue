@@ -64,28 +64,28 @@
           nombreArtista: "Aretha Franklin",
           tituloDisco: "Amazing Grace",
           precio: 23.99,
-          imagen: "../../../public/soul/Aretha.png",
+          imagen: "./public/soul/Aretha.png",
         },
         {
           id: 2,
           nombreArtista: "James Brown",
           tituloDisco: "Black and Loud",
           precio: 28.99,
-          imagen: "../../../public/soul/james.jpg",
+          imagen: "./public/soul/james.jpg",
         },
         {
           id: 3,
           nombreArtista: "Marvin Gaye",
           tituloDisco: "What's Going On",
           precio: 31.99,
-          imagen: "../../../public/soul/marvin.jpg",
+          imagen: "./public/soul/marvin.jpg",
         },
         {
           id: 4,
           nombreArtista: "Otis Redding",
           tituloDisco: "Dock of the Bay",
           precio: 13.99,
-          imagen: "../../../public/soul/otis.png"
+          imagen: "./public/soul/otis.png"
         }
       ],
     };

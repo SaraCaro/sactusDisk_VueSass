@@ -63,28 +63,28 @@ import cabecera from "../cabecera.vue";
           nombreArtista: "Metallica",
           tituloDisco: "Black Album",
           precio: 16.99,
-          imagen: "../../../public/rock/metallica.png",
+          imagen: "./public/rock/metallica.png",
         },
         {
           id: 2,
           nombreArtista: "Guns N'Roses",
           tituloDisco: "Appetite for destruction",
           precio: 13.99,
-          imagen: "../../../public/rock/roses.png",
+          imagen: "./public/rock/roses.png",
         },
         {
           id: 3,
           nombreArtista: "AC/DC",
           tituloDisco: "Power Up",
           precio: 18.99,
-          imagen: "../../../public/rock/acdc.png",
+          imagen: "./public/rock/acdc.png",
         },
         {
           id: 4,
           nombreArtista: "Pink Floyd",
           tituloDisco: "The Wall",
           precio: 15.99,
-          imagen: "../../../public/rock/pink.png",
+          imagen: "./public/rock/pink.png",
         }
       ],
     };

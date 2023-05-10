@@ -64,28 +64,28 @@
           nombreArtista: "Justin Bieber",
           tituloDisco: "Justice",
           precio: 19.99,
-          imagen: "../../../public/pop/justin.png",
+          imagen: "./public/pop/justin.png",
         },
         {
           id: 2,
           nombreArtista: "Dua Lipa",
           tituloDisco: "Future Nostalgia",
           precio: 31.99,
-          imagen: "../../../public/pop/dua.jpg",
+          imagen: "./public/pop/dua.jpg",
         },
         {
           id: 3,
           nombreArtista: "Bruno Mars",
           tituloDisco: "Silk Sonic",
           precio: 20.99,
-          imagen: "../../../public/pop/bruno.jpg",
+          imagen: "./public/pop/bruno.jpg",
         },
         {
           id: 4,
           nombreArtista: "Rosalia",
           tituloDisco: "El Mal Querer",
           precio: 26.99,
-          imagen: "../../../public/pop/rosalia.jpg",
+          imagen: "./public/pop/rosalia.jpg",
         }
       ],
     };

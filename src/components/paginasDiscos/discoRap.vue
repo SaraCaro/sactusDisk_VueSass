@@ -64,28 +64,28 @@ data() {
           nombreArtista: "Kase.O",
           tituloDisco: "El Circulo",
           precio: 16.99,
-          imagen: "../../../public/rap/kase.jpg",
+          imagen: "./public/rap/kase.jpg",
         },
         {
           id: 2,
           nombreArtista: "Violadores del Verso",
           tituloDisco: "Vivir Para Contarlo",
           precio: 30.99,
-          imagen: "../../../public/rap/verso.png",
+          imagen: "./public/rap/verso.png",
         },
         {
           id: 3,
           nombreArtista: "50cent",
           tituloDisco: "Get Rich Or Die Tryin",
           precio: 18.99,
-          imagen: "../../../public/rap/50cent.jpg",
+          imagen: "./public/rap/50cent.jpg",
         },
         {
           id: 4,
           nombreArtista: "Eminem",
           tituloDisco: "The Eminem Show",
           precio: 10.99,
-          imagen: "../../../public/rap/eminem.png",
+          imagen: "./public/rap/eminem.png",
         }
       ],
     };

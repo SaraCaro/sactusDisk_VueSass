@@ -63,28 +63,28 @@ import cabecera from "../cabecera.vue";
         nombreArtista: "Ray Charles",
         tituloDisco: "A message from the people",
         precio: 21.99,
-        imagen: "../../../public/soul/ray.png",
+        imagen: "./public/soul/ray.png",
       },
       {
         id: 2,
         nombreArtista: "Stevie Wonder",
         tituloDisco: "Hotter than July",
         precio: 10.99,
-        imagen: "../../../public/soul/stevie.jpg",
+        imagen: "./public/soul/stevie.jpg",
       },
       {
         id: 3,
         nombreArtista: "Amy Winehouse",
         tituloDisco: "Back to Black",
         precio: 25.99,
-        imagen: "../../../public/soul/amy.jpg",
+        imagen: "./public/soul/amy.jpg",
       },
       {
         id: 4,
         nombreArtista: "Al Green",
         tituloDisco: "Back Up Train",
         precio: 13.99,
-        imagen: "../../../public/soul/green.jpg",
+        imagen: "./public/soul/green.jpg",
       }
       ],
     };

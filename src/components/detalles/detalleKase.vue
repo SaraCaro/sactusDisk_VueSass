@@ -5,7 +5,7 @@
     </div>
     <div class="detalle">
           <div class="detalle-img">
-              <img class="detalle-img-item" src="../../../public/rap/kase.jpg" alt="harry"/>
+              <img class="detalle-img-item" src="../../../public/rap/kase.jpg" alt="kase"/>
           </div>
           <div class="detalle-text">
               <h1 class="detalle-text-title">Kase.O - El circulo</h1>

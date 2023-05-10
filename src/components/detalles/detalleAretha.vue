@@ -5,7 +5,7 @@
     </div>
     <div class="detalle">
           <div class="detalle-img">
-              <img class="detalle-img-item" src="../../../public/soul/Aretha.png" alt="harry"/>
+              <img class="detalle-img-item" src="../../../public/soul/Aretha.png" alt="Aretha"/>
           </div>
           <div class="detalle-text">
               <h1 class="detalle-text-title">Aretha Franklin - Amazing Grace</h1>

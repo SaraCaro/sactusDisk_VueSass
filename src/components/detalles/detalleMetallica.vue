@@ -5,7 +5,7 @@
     </div>
     <div class="detalle">
           <div class="detalle-img">
-              <img class="detalle-img-item" src="../../../public/Rock/metallica.png" alt="harry"/>
+              <img class="detalle-img-item" src="../../../public/Rock/metallica.png" alt="metallica"/>
           </div>
           <div class="detalle-text">
               <h1 class="detalle-text-title">Black Album - Metallica</h1>
