@@ -57,7 +57,7 @@
       <p>¡Suscribete a nuestro newsletter y recibe las mejores ofertas!</p>
   </div>
   <div class="suscripcion-form">
-      <form action="">
+      <form @submit.prevent="handleSubmit">
           <input class="suscripcion-form-input" type="email" placeholder="Ingresa tu email">
           <button class="suscripcion-form-boton" type="submit">Suscribirse</button>
       </form>
@@ -77,6 +77,16 @@ export default {
     components: {
         cabecera,
         pie
+    },
+    data() {
+        return {
+            email: ''
+        }
+    },
+    methods: {
+        handleSubmit() {
+            alert('Gracias por suscribirte')
+        }
     }
 }
 
