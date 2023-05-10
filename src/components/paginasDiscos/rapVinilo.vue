@@ -64,28 +64,28 @@
           nombreArtista: "Nach",
           tituloDisco: "Suburbia",
           precio: 36.99,
-          imagen: "./public/rap/nach.png",
+          imagen: "./rap/nach.png",
         },
         {
           id: 2,
           nombreArtista: "SFDK",
           tituloDisco: "Redención",
           precio: 24.99,
-          imagen: "./public/rap/sfdk.jpg",
+          imagen: "./rap/sfdk.jpg",
         },
         {
           id: 3,
           nombreArtista: "2Pac",
           tituloDisco: "Greatest Hits",
           precio: 32.99,
-          imagen: "./public/rap/2pac.jpg",
+          imagen: "./rap/2pac.jpg",
         },
         {
           id: 4,
           nombreArtista: "Mac Miller",
           tituloDisco: "Swimming",
           precio: 25.99,
-          imagen: "./public/rap/mac.jpg",
+          imagen: "./rap/mac.jpg",
         }
       ],
     };
